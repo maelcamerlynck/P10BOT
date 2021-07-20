@@ -2,7 +2,7 @@ from config import DefaultConfig
 
 def test_cle_insight():
     
-    assert DefaultConfig.APPINSIGHTS_INSTRUMENTATION_KEY == 'e40dca9d-734c-4acd-810e-93a94c9ffac3'
+    assert DefaultConfig.APPINSIGHTS_INSTRUMENTATION_KEY == 'e1695f15-df98-4bc0-918a-75dfb8c1aa79'
     
 def test_cle_luis():
     
