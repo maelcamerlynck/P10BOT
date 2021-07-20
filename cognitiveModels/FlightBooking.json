@@ -159,6 +159,11 @@
       "entities": []
     },
     {
+      "text": "book flight from london to paris on may 23, 2021 returning june 25, 2021 for $260",
+      "intent": "BookFlight",
+      "entities": []
+    },    
+    {
       "text": "book flight from paris to london on may 20, 2021 returning june 22, 2021 for $250",
       "intent": "BookFlight",
       "entities": []
