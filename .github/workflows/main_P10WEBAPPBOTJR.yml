@@ -57,6 +57,6 @@ jobs:
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'P10WEBAPPBOTJR'
+          app-name: 'BotflyMe'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_d48ae3398c9b418f9f9a84f7f8abeefc }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
